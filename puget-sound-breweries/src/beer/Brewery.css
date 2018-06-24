@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.Brewery-flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 720px;
+    height: 240px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;}
+
+.Brewery-image-container {
+    width: 240px;
+    height: auto;
+    margin: 40px;
+}
+
+.Brewery-image-container img {
+    width: 240px;
+    height: auto;
+}
+
+.Brewery-stats {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 360px;
+    height: 240px;
+    margin: 40px;
+    text-align: left;
+}
+
+.Brewery-movie-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.Brewery-button-container {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.Brewery-Gold-button {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
