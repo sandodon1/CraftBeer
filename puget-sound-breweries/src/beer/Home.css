@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+.Home {
+    text-align: center;
+    align-content: center;
+    font-family: "Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    margin: auto;
+  }
+  
+  .Home-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1120px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .Home-page-link-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 1120px;
+    text-align: center;
+    margin: auto;
+  }
+ 
+  .Home-page-link {
+    text-align: center;
+    width: 50px;
+    margin: 20px;
+  }
+
+  .Home-Gold-button {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.Home-Gray-button {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 700;
+}

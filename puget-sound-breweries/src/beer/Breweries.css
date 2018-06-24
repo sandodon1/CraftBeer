@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.Breweries {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-color: black;
+    border-top: 1.5px;
+    border-left: 1.5px;
+    border-right: 1.5px;
+    border-bottom: 1.5px;
+    text-align: center;
+    border-style: outset;
+}
+
+.Breweries-image-container {
+    width: 60px;
+    height: auto;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.Breweries-image-container img {
+    width: 60px;
+    height: auto;
+}
