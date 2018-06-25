@@ -53,12 +53,6 @@ class Breweries extends Component {
     } = this.props.brewery;
 
     const linkTo = "/breweries/" + id;
-    const imageCount = parseInt(imagecount, 10);
-    if (imagecount !== '0') {
-      console.log(this.state.image);
-      //console.log(this.state.image.thumburl);
-      //console.log(this.state.image[0].thumburl);
-    }
 
     return (
       <div className="Breweries" >
