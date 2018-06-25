@@ -9,11 +9,11 @@ class Rating extends Component {
     render() {
 
         return (
-            <span>Rating: {this.props.rating !== '0' ?
+            <span><strong>Overall Rating: </strong>{this.props.rating !== '0' ?
                 <ReactRating fractions={2} initialRating={this.props.rating}
                     placeholderSymbol={<img src={goldstar} alt=""/>} fullSymbol={<img src={goldstar} alt=""/>}
                     emptySymbol={<img src={graystar} alt=""/>}/>
-                : "None"}
+                : "No rating"}
             </span>
         );
     }
